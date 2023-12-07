@@ -1,0 +1,16 @@
+{
+    "name": "dark.pdf",
+    "version": "0.0.1",
+    "icons": {
+        "128": "logo.png"
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["activeTab", "scripting"],
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
